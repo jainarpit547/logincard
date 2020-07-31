@@ -1,0 +1,144 @@
+body{
+    background-color: #f2f6ff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+  }
+  .form-wrapper{
+    background-color:white;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto; 
+    border:1px solid #ccc;
+    border-radius:15px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+  }
+  .image{
+    width:50px;
+    height:50px;
+    padding:16px 32px;
+  }
+  .icon{
+    background-color:#f2f6ff;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .heading{
+    font-size:32px;
+    padding-top:56px;
+    padding-bottom:32px;
+    text-align:center;
+  }
+  form{
+    padding:80px 80px 40px 80px;
+  }
+  .input-box{
+    font-size:18px;
+    padding-bottom:12px;
+    margin-bottom:36px;
+    border-top:0;
+    border-left:0;  
+    border-right:0;
+    border-bottom: 1px solid #ccc;
+    width:100%;
+    outline:none;
+  }
+  .submit{
+    background-color:#0056ff;
+    padding:12px 24px;
+    font-size:18px;
+    color:white;
+    border:none;
+    cursor: pointer;
+    outline: none;
+  }
+  .abc{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .para{
+    font-size:18px;
+    margin:0px;
+    color: black;
+    font-weight:bold;
+  }
+  #signup{
+      display: none;
+  }
+  header {
+    text-align: center;
+    font-size: 20px;
+    background-color: #4682b4;
+    box-shadow: 0px 2px 6px #000;
+    width: 100%;
+    position:fixed;
+    top:0;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .topbar{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+ }
+ #image{
+   display: flex;
+   box-sizing: border-box;
+   flex-direction: column;
+   margin: 100px;
+   justify-content: center;
+ }
+ #image-one{
+     width:50%;
+     border: olive solid 2px;
+     border-radius: 20px;
+     margin: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     display: none;
+ }
+ #image-two{
+     width: 50%;
+     border: olive solid 2px;
+     border-radius: 20px;
+     margin: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     display:none;
+ }
+ #image-three{
+    width: 50%;
+    border: olive solid 2px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display:none;
+}
+#topbar-logout{
+    display: none;
+}
+@media(max-width:600px){
+    .form-wrapper{
+        width: unset;
+    }
+    #image-one{
+        width: 100%;
+    }
+    #image-two{
+        width: 100%;
+    }
+    #image-three{
+        width:100%;
+    }
+}
